@@ -1,12 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <title>Document</title>
 </head>
 <body>
-    <h1>SB UI Kit Pro</h1>
+
+
+  <div class="d-flex justify-content-between align-item-center offset-1 mt-3 "> <!--Thêm offset-5-->
     
+    <div class="me-auto">
+      <h5>SB UI Kit Pro</h5>
+    </div>
+    
+    <ul class="nav nav-pills offset-4">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Landings</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Mobile App</a></li>
+          <li><a class="dropdown-item" href="#">Desktop App</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Multipurpose</a></li>
+          <li><a class="dropdown-item" href="#">Agency</a></li>
+          <li><a class="dropdown-item" href="#">Press</a></li>
+          <li><a class="dropdown-item" href="#">Directtory</a></li>
+          <li><a class="dropdown-item" href="#">Rental</a></li>
+          <li><a class="dropdown-item" href="#">Real Estate</a></li>
+          <li><a class="dropdown-item" href="#">Classifieds</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Lead Capture</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Resume</a></li>
+          <li><a class="dropdown-item" href="#">portfolio</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Basic</a></li>
+          <li><a class="dropdown-item" href="#">Basic(Signup)</a></li>
+          <li><a class="dropdown-item" href="#">Graphic</a></li>
+          <li><a class="dropdown-item" href="#">Grafic(Signup)</a></li>
+          <li><a class="dropdown-item" href="#">Video Header <span class="badge bg-secondary"> New</span></a></li> <!--Tạo ký hiệu NEW-->
+          <li><a class="dropdown-item" href="#">Video Header</a></li>
+          <li><a class="dropdown-item" href="#">Inner Page</a></li>
+          <li><a class="dropdown-item" href="#">Nav Only</a></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Documentations</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <!--Nút-->
+    <div class="me-auto offset-1"> <!---->
+      <button type="button" class="btn btn-primary btn-lg  ">Buy Now<box-icon name='right-arrow-alt' animation='spin' ></box-icon></button>
+    </div>
+
+  </div>
+
+
+  <!--ẢNH chỉnh giữa slide-->
+  <div class="frame">
+    <img class="img_frame" src="https://sb-ui-kit-pro.startbootstrap.com/assets/img/demo/avataaars.svg" alt="Đại tướng Võ Nguyên Giáp">
+  </div>
+
+  <div class="text">
+    <h1>Welcome to my portfolio!</h1>
+    <p>I am a graphic artist, illustrator, and UI designer specializing in modern, creative design based in Wildemount, TX</p>
+  </div>
+
+
+
+
+  <section id="MainColor" class=" py-10 mt-10 pt-4"> 
+    <div class="container px-5 pb-sm-5 ">
+        <div class="row gx-5 text-center ">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class=" bg-red text-white mb-4"><i data-feather="edit-3"></i></div>
+                <box-icon name='edit-alt' animation='tada' ></box-icon>
+                <h3>Illustration</h3>
+                <p class="mb-0">I provide custom illustration services for contract clients</p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class=" bg-yellow text-white mb-4"><i data-feather="layout"></i></div>
+                <box-icon name='layout' animation='tada' ></box-icon>
+                <h3>UI Design</h3>
+                <p class="mb-0">User experience and interface designs is one of my specialties</p>
+            </div>
+            <div class="col-lg-4">
+                <div class=" bg-blue text-white mb-4"><i data-feather="droplet"></i></div>
+                <box-icon name='droplet' animation='tada' ></box-icon>
+                <h3>Graphic Design</h3>
+                <p class="mb-0">Photo restoration, post processing, and other photo services</p>
+            </div>
+        </div>
+    </div>
+  </section>  
+
+  <!--Contact me-->
+  <section id="Main-Color2" class= "py-5 mb-3 mt-3">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2>Contact me</h2>
+                <p class="mb-5">I am available for contract work, when you're ready - let me know!</p>
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class=" bg-orange text-white mb-3"><i data-feather="mail"></i></div>
+                                <box-icon name='gmail' type='logo' flip='horizontal' animation='spin' color='#e90202' ></box-icon>
+                                <div style="text-align:center" class="small"><a href="#!"><span class="__cf_email__" data-cfemail="264e434a4a4966435e474b564a430845494b">[hello@example.com]</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class=" bg-green text-white mb-3"><i data-feather="smartphone"></i></div>
+                                <box-icon name='phone' type='tada' animation='spin' flip='horizontal' color='#06f910' ></box-icon>
+                                <div style="text-align:center" class=" small">555-123-4567</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+<!--Chân trang-->
+  <div id="layoutDefault_footer">
+    <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+        <div class="container px-5 mt-5">
+            <div class="row gx-5">
+                <div class="col-lg-3 mt-5">
+                    <div class="footer-brand">SB UI Kit Pro</div>
+                    <div class="mb-3">Design made easy</div>
+                    <div class=" mb-5">
+                      <box-icon name='instagram' type='logo' animation='burst' color='#eff5ef' ></box-icon>
+                      <box-icon name='meta' type='logo' animation='spin' color='#eff5ef' ></box-icon>
+                      <box-icon name='github' type='logo' animation='tada' color='#eff5ef' ></box-icon>
+                      <box-icon name='twitter' type='logo' animation='fade-up' color='#eff5ef' ></box-icon>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-5 mt-5">
+                        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                            <div class="text-uppercase-expanded text-xs mb-4">Product</div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a href="#!">Landing</a></li>
+                                <li class="mb-2"><a href="#!">Pages</a></li>
+                                <li class="mb-2"><a href="#!">Sections</a></li>
+                                <li class="mb-2"><a href="#!">Documentation</a></li>
+                                <li><a href="#!">Changelog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                            <div class="text-uppercase-expanded text-xs mb-4">Technical</div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a href="#!">Documentation</a></li>
+                                <li class="mb-2"><a href="#!">Changelog</a></li>
+                                <li class="mb-2"><a href="#!">Theme Customizer</a></li>
+                                <li><a href="#!">UI Kit</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                            <div class="text-uppercase-expanded text-xs mb-4">Includes</div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a href="#!">Utilities</a></li>
+                                <li class="mb-2"><a href="#!">Components</a></li>
+                                <li class="mb-2"><a href="#!">Layouts</a></li>
+                                <li class="mb-2"><a href="#!">Code Samples</a></li>
+                                <li class="mb-2"><a href="#!">Products</a></li>
+                                <li class="mb-2"><a href="#!">Affiliates</a></li>
+                                <li><a href="#!">Updates</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="text-uppercase-expanded text-xs mb-4">Legal</div>
+                            <ul class="list-unstyled mb-0">
+                             
+                                <li class="mb-2"><a href="#!">Privacy Policy</a></li>
+                                <li class="mb-2"><a href="#!">Terms and Conditions</a></li>
+                                <li><a href="#!">License</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5" />
+            <div class="row gx-5 align-items-center">
+                <div class="col-md-6 small">Copyright © Your Website 2023</div>
+                <div class="col-md-6 text-md-end small">
+                    <a href="#!">Privacy Policy</a>
+                    
+                    <a href="#!">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </div>
+  
+</body>
+</div>
+<div></div>
+
+
 </body>
 </html>
